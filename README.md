@@ -41,7 +41,7 @@ The provided code covers the following tasks:
 5. Acquiring the most recent, popular, high-quality, and disputed posts individually. Each group comprises 1000 entries
 6. Consolidating the collected post data by employing the `combine_data()` function
 7. Building a comprehensive DataFrame encompassing the consolidated data sets
-8. Writing the assembled DataFrame as a CSV file locally
+8. Writing the assembled DataFrame as a CSV file locally (create a folder named 'data' to store the csv file)
 
 ## Step 5: Explore The Universe Of Subreddits
 We now possess all the tools needed to put our skills to work. Try out the code and enjoy the results!
