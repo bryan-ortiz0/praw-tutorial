@@ -7,7 +7,7 @@ This guide will walk you through the process of using the Python Reddit API Wrap
 ```
 pip install python
 ```
-- A Reddit account with developer access
+- A Reddit account with developer access--we will work on this on step 2 if needed
 
 ## Step 1: Install PRAW
 To get started, we need to install the PRAW package. Open your terminal or command prompt and run the following command:
@@ -31,7 +31,7 @@ Before we can start scraping data, we need to create a developer account on Redd
 Now that we have our credentials, we'll update the `scraper.py` file that is provided with the necessary information needed to work. Simple replace the placeholders `API_KEY`, `API_SECRET`, `USERNAME`, and `PASSWORD` in `scraper.py` with your own credentials obtained during Step 2.
 
 ## Step 4: Gathering Data with a Jupyter Notebook (Credit: Tim Book)
-A notebook called `gather_data.ipynb` is provided with code that gathers posts from various sort options in a choden subreddit and combines the data into a single Pandas DataFrame. Finally, the resulting merged dataset is exported as a CSV file.
+A notebook called `gather_data.ipynb` is provided with code that gathers posts from various sort options in a chosen subreddit and combines the data into a single Pandas DataFrame. Finally, the resulting merged dataset is exported as a CSV file.
 
 The provided code covers the following tasks:
 1. Importing the necessary modules--PRAW, the included credentials from `scraper.py`, and Pandas
@@ -41,7 +41,7 @@ The provided code covers the following tasks:
 5. Acquiring the most recent, popular, high-quality, and disputed posts individually. Each group comprises 1000 entries
 6. Consolidating the collected post data by employing the `combine_data()` function
 7. Building a comprehensive DataFrame encompassing the consolidated data sets
-8. Writing the assembled DataFrame as a CSV file locally (create a folder named 'data' to store the csv file)
+8. Writing the assembled DataFrame as a CSV file locally (create a folder named 'data' to properly store the csv file)
 
 ## Step 5: Explore The Universe Of Subreddits
 We now possess all the tools needed to put our skills to work. Try out the code and enjoy the results!
