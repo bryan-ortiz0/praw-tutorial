@@ -28,7 +28,7 @@ Before we can start scraping data, we need to create a developer account on Redd
      - *Remember to keep them confidential*
 
 ## Step 3: Authenticate with Reddit
-Now that we have our credentials, we'll update the `scraper.py` file that is provided with the necessary information needed to work. Simple replace the placeholders `API_KEY`, `API_SECRET`, `USERNAME`, and `PASSWORD` in `scraper.py` with your own credentials obtained during Step 2.
+Now that we have our credentials, we'll update the `scraper.py` file that is provided with the necessary information needed to work. Simply replace the placeholders `API_KEY`, `API_SECRET`, `USERNAME`, and `PASSWORD` in `scraper.py` with your own credentials obtained during Step 2.
 
 ## Step 4: Gathering Data with a Jupyter Notebook (Credit: Tim Book)
 A notebook called `gather_data.ipynb` is provided with code that gathers posts from various sort options in a chosen subreddit and combines the data into a single Pandas DataFrame. Finally, the resulting merged dataset is exported as a CSV file.
